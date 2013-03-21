@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>jp.classmethod.aws</groupId>
-  <artifactId>petrucci</artifactId>
+  <groupId>jp.classmethod.aws.sample</groupId>
+  <artifactId>fq-rds</artifactId>
   <packaging>war</packaging>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <inceptionYear>2013</inceptionYear>
   <licenses>
     <license>
@@ -236,6 +236,6 @@
     <logback-version>1.0.9</logback-version>
     <spring-version>3.2.1.RELEASE</spring-version>
     <jetty-version>8.1.9.v20130131</jetty-version>
-    <aws-java-sdk-version>1.3.31</aws-java-sdk-version>
+    <aws-java-sdk-version>1.4.0.1</aws-java-sdk-version>
   </properties>
 </project>
